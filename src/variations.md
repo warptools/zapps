@@ -1,6 +1,7 @@
-Variations on Zapp
-==================
-
+---
+title: "Zapps -- Variations"
+layout: base.njk
+---
 The core Zapp approach is:
 
 - dynamically linked executables
