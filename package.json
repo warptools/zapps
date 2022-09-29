@@ -1,7 +1,7 @@
 {
   "name": "zapps",
   "version": "1.0.0",
-  "description": "Zapps -- Zero-Dependency Applications =====================================",
+  "description": "Zapps -- Zero-Dependency Applications",
   "main": "index.js",
   "scripts": {
     "serve": "npx @11ty/eleventy --serve",
@@ -13,7 +13,7 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/warpsys/zapps/issues"
   },
