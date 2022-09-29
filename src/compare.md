@@ -1,8 +1,7 @@
-Zapps: Tradeoffs and Comparisons
-================================
-
-
-
+---
+title: "Zapps -- Tradeoffs and Comparisons"
+layout: base.njk
+---
 Tradeoffs
 ---------
 

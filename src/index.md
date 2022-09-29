@@ -1,6 +1,7 @@
-Zapps -- Zero-Dependency Applications
-=====================================
-
+---
+title: "Zapps -- Zero-Dependency Applications"
+layout: base.njk
+---
 Zapps are an application packaging format for Linux.
 
 For users, they provide simplicity and freedom: a Zapp can be installed in any location, on any linux distribution, and will "just work".
@@ -12,24 +13,17 @@ No distro-specific worries; and users can always get the latest version of the a
 
 Less is more.  Zapps are as simple as we can make them.
 
----------
 
 - [Technology](#technology)
 - [Tradeoffs](#tradeoffs)
 - [Variants](#variants)
 - [Join the Community!](#join-the-community)
 
----------
-
-
 
 Technology
 ----------
 
-Read more about the [Zapp Technology](./src/technology.md) in depth here.
-
----------
-
+Read more about the [Zapp Technology](./technology.md) in depth here.
 
 
 Tradeoffs
@@ -43,12 +37,9 @@ _However_.
 
 We consider most of them to be either "worth it", or "mitigated".
 
-See more in the [deeper docs about tradeoffs](./src/compare.md#tradeoffs).
+See more in the [deeper docs about tradeoffs](compare.md#tradeoffs).
 
-We also [compare](./src/compare.md#how-is-this-different-from) Zapps to several alternative approaches in that doc!
-
----------
-
+We also [compare](compare.md#how-is-this-different-from) Zapps to several alternative approaches in that doc!
 
 
 Variants
@@ -58,11 +49,7 @@ The core Zapp standard is meant to be utterly simple, foolproof, and portable.
 
 However, there are a few variations!  These generally trade some complexity in order to satisfy some other goals, or make more efficient or more compact packages.
 
-Check out the [Variant docs](./src/varations.md)!
-
----------
-
-
+Check out the [Variant docs](varations.md)!
 
 
 Join the Community
