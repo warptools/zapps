@@ -12,7 +12,7 @@ However, there are variations of this possible!
 
 Right now, there's one in particular that's remarkable:
 
-- "[Zapp-splay](#zapps-play)" -- "splay" Zapps are smaller, trimmed down, and provide a way to share and deduplicate data between other "splayed" Zapps... at the cost of increased complexity, in the form of needing to unpack several packages at once before getting a working application.
+- "[Zapp-splay](#zapp-splay)" -- "splay" Zapps are smaller, trimmed down, and provide a way to share and deduplicate data between other "splayed" Zapps... at the cost of increased complexity, in the form of needing to unpack several packages at once before getting a working application.
 - ... this list may grow in the future!  Community ideas are welcome :)
 
 

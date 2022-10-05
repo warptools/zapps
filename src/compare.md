@@ -19,7 +19,7 @@ However, we don't typically see this as a problem.  Two reasons:
 Reason 1: Simply put, _users typically don't care_.  Many desktop applications these days bundle an entire Electron instance, becoming hundreds of megabytes.
 And what have we learned from that?  _Users accept that, because it provides value -- it works_.  Zapps inhabit that same space: "just works" is more important than "kinda big".
 
-Reason 2: There's a Zapp variant that addresses this -- See the docs on the [Zapp-splay Variation](./variations.md#zapp-splay).
+Reason 2: There's a Zapp variant that addresses this -- See the docs on the [Zapp-splay Variation](/variations#zapp-splay).
 Splayed Zapps can be just as compact as normal applications -- they're totally suitable even on embedded devices or other scenarios with severely limited disk space availability.
 
 
@@ -82,7 +82,7 @@ Zapps still use dynamic linking.  But they're as portable as static linking!
 Because Zapps bundle all their libraries together, they're portable -- which is the main thing that's generally considered desirable about static linking.
 
 It's also still possible to deduplicate the libraries used by a zapp, and share them -- which is not possible with static linking.
-The baseline Zapps don't do this, but the [Zapp-splay Variation](./variations.md#zapp-splay) does -- and those can be produced without re-compiling, which is a pretty great power to have.
+The baseline Zapps don't do this, but the [Zapp-splay Variation](/variations#zapp-splay) does -- and those can be produced without re-compiling, which is a pretty great power to have.
 
 Zapps are generally easier to produce than static linking.
 (Static linking can require correct support from upstream libraries; usually, it works.  When it doesn't?  You can be pretty far up a creek and left without very usable paddle, because the problems might not even be in code that you own yourself.)
