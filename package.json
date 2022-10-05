@@ -5,7 +5,11 @@
   "main": "index.js",
   "scripts": {
     "serve": "npx @11ty/eleventy --serve",
-    "build": "npx @11ty/eleventy"
+    "build": "npx @11ty/eleventy",
+    "test": ".site/_tools/hyperlink public/ --check-anchors --sources=./src",
+    "fetch-hyperlink": "mkdir -p .site/_tools && run-script-os",
+    "fetch-hyperlink:darwin": "wget -q https://github.com/untitaker/hyperlink/releases/download/0.1.15/hyperlink-mac-x86_64 -O .site/_tools/hyperlink && chmod +x .site/_tools/hyperlink",
+    "fetch-hyperlink:linux": "wget -q https://github.com/untitaker/hyperlink/releases/download/0.1.15/hyperlink-linux-x86_64 -O .site/_tools/hyperlink && chmod +x .site/_tools/hyperlink"
   },
   "repository": {
     "type": "git",
@@ -19,9 +23,7 @@
   },
   "homepage": "https://github.com/warpsys/zapps#readme",
   "devDependencies": {
-    "@11ty/eleventy": "^1.0.2"
-  },
-  "dependencies": {
-    "clean-css": "^5.3.1"
+    "@11ty/eleventy": "^1.0.2",
+    "run-script-os": "^1.1.6"
   }
 }
