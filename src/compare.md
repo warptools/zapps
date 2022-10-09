@@ -1,6 +1,9 @@
 ---
 title: "Zapps -- Tradeoffs and Comparisons"
 layout: base.njk
+eleventyNavigation:
+    key: Compare
+    order: 2
 ---
 Tradeoffs
 ---------

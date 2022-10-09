@@ -1,6 +1,9 @@
 ---
 title: "Zapps -- Variations"
 layout: base.njk
+eleventyNavigation: 
+    key: Variations 
+    order: 3
 ---
 The core Zapp approach is:
 

@@ -19,11 +19,12 @@
     "url": "https://github.com/warpsys/zapps/issues"
   },
   "homepage": "https://github.com/warpsys/zapps#readme",
+  "dependencies": {},
   "devDependencies": {
     "@11ty/eleventy": "^1.0.2",
+    "@11ty/eleventy-navigation": "^0.3.5",
+    "@untitaker/hyperlink": "^0.1.26",
+    "markdown-it-anchor": "^8.6.4",
     "run-script-os": "^1.1.6"
-  },
-  "dependencies": {
-    "@untitaker/hyperlink": "^0.1.26"
   }
 }
