@@ -1,5 +1,5 @@
 ---
-title: "Zapps -- Tradeoffs and Comparisons"
+title: "Tradeoffs and Comparisons"
 layout: base.njk
 eleventyNavigation:
     key: Compare

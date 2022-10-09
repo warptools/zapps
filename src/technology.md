@@ -1,5 +1,5 @@
 ---
-title: "Zapps -- Technology"
+title: "Technology"
 layout: base.njk
 eleventyNavigation: 
     key: Technology

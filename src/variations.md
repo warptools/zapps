@@ -1,5 +1,5 @@
 ---
-title: "Zapps -- Variations"
+title: "Variations"
 layout: base.njk
 eleventyNavigation: 
     key: Variations 
