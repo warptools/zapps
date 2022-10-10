@@ -3,7 +3,7 @@ title: "Technology"
 layout: base.njk
 eleventyNavigation: 
     key: Technology
-    order: 1
+    order: 10
 ---
 What's in a Zapp?  What makes Zapps special, what can they do that other packaging formats can't, and how do we make them?
 

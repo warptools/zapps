@@ -3,7 +3,7 @@ title: "Tradeoffs and Comparisons"
 layout: base.njk
 eleventyNavigation:
     key: Compare
-    order: 2
+    order: 20
 ---
 Tradeoffs
 ---------

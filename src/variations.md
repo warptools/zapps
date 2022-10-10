@@ -3,7 +3,7 @@ title: "Variations"
 layout: base.njk
 eleventyNavigation: 
     key: Variations 
-    order: 3
+    order: 30
 ---
 The core Zapp approach is:
 
