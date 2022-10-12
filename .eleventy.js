@@ -63,6 +63,9 @@ module.exports = function (eleventyConfig) {
 			}
 		})
 
+		// markdown-it-replace-link is required for the replaceLink value above to have effect.
+		.use(require('markdown-it-replace-link'))
+
 		// markdown-it-anchor puts page-local anchors onto headings -- a must-have.
 		.use(require("markdown-it-anchor"), {
 			permalink: true,
