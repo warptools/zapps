@@ -22,6 +22,13 @@
     "@11ty/eleventy": "^1.0.2"
   },
   "dependencies": {
-    "clean-css": "^5.3.1"
+    "@11ty/eleventy-navigation": "^0.3.5",
+    "clean-css": "^5.3.1",
+    "markdown-it-anchor": "^8.6.5",
+    "markdown-it-container": "^3.0.0",
+    "markdown-it-footnote": "^3.0.3",
+    "markdown-it-mark": "^3.0.1",
+    "markdown-it-replace-link": "^1.1.0",
+    "markdown-it-table-of-contents": "^0.6.0"
   }
 }

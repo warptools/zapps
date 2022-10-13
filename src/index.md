@@ -23,7 +23,7 @@ Less is more.  Zapps are as simple as we can make them.
 Technology
 ----------
 
-Read more about the [Zapp Technology](./technology.md) in depth here.
+Read more about the [Zapp Technology](/technology.md) in depth here.
 
 
 Tradeoffs
@@ -37,9 +37,9 @@ _However_.
 
 We consider most of them to be either "worth it", or "mitigated".
 
-See more in the [deeper docs about tradeoffs](compare.md#tradeoffs).
+See more in the [deeper docs about tradeoffs](/compare.md#tradeoffs).
 
-We also [compare](compare.md#how-is-this-different-from) Zapps to several alternative approaches in that doc!
+We also [compare](/compare.md#how-is-this-different-from) Zapps to several alternative approaches in that doc!
 
 
 Variants
@@ -49,7 +49,7 @@ The core Zapp standard is meant to be utterly simple, foolproof, and portable.
 
 However, there are a few variations!  These generally trade some complexity in order to satisfy some other goals, or make more efficient or more compact packages.
 
-Check out the [Variant docs](varations.md)!
+Check out the [Variant docs](/variations.md)!
 
 
 Join the Community
