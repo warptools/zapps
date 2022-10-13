@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "serve": "npx @11ty/eleventy --serve",
-    "build": "npx @11ty/eleventy",
+    "build": "npx -y @11ty/eleventy",
     "test": "hyperlink public/ --sources=./src"
   },
   "repository": {
