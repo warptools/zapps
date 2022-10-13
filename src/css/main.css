@@ -1,8 +1,34 @@
+:root {
+	--primary-color: #302ae6;
+	--secondary-color: #536390;
+	--text-color: #3a3a51;
+	--link-color: #339;
+
+	/* Space */
+	--space-xs: 4px;
+	--space-sm: 8px;
+	--space-md: 16px;
+	--space-lg: 32px;
+	--space-xl: 64px;
+	--space-xxl: 128px;
+
+}
+
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin: auto;
   max-width: 80ch;
   padding: 2em 4em;
+  color: var(--text-color);
+}
+
+a {
+	color: var(--link-color);
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
 }
 
 h1,
@@ -11,4 +37,5 @@ h3,
 h4,
 h5 {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: var(--text-color);
 }
