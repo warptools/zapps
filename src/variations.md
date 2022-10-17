@@ -39,6 +39,11 @@ Slightly less tl;dr: symlinks with content-addressed target paths.
 
 [[TODO: addition information required here]]
 
+For a recommendation on which hashing to use:
+see [Appendix: What hashing scheme shall we use?](#appendix-what-hashing-scheme-shall-we-use)
+
+
+
 ### Delayed fabrication of sharing splays
 
 A Zapp can be transformed into a splay-variant Zapp freely.
@@ -46,3 +51,26 @@ This is possible even without access to the source code, or any need to recompil
 It can also be done totally automatically.
 
 [[TODO: addition information required here]]
+
+
+
+#### Appendix: What hashing scheme shall we use?
+
+For the purpose of share splays, any hashing scheme will do.
+
+The one trick is: it's best if everyone you'd like to share content with agrees on _the same one_.
+
+We'll recommend a concrete answer: **let's use the git tree hashing, in sha256 mode.**
+
+Why?
+
+- it hashes full filesystem trees -- obviously essential
+- it hashes the important posix bits -- the executable bit -- and it supports symlinks
+- it doesn't hash anything _else_ -- for library sharing, you don't care about ownership bits, etc!
+
+In other words, it fits the ticket rather precisely.
+And because it's already well-standardized and widely used due to git's ubiquity,
+we can all just skip a bikeshed here.
+
+We've rolled out a tool that does exactly just this treehash, which you may find useful:
+https://github.com/warpsys/gittreehash
