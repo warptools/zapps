@@ -1,5 +1,5 @@
 ---
-title: "Zero Dependency Applications"
+title: "Zero-Dependency Applications"
 layout: base.njk
 ---
 Zapps are an application packaging format for Linux.
