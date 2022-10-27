@@ -64,9 +64,9 @@ We'd love to have you join our [community](https://warpforge.notion.site/Communi
 - If you're interested in adopting Zapps as someone who ships software -- join us!
 - If you're using Zapps and need support -- we're happy to hear from you!  (We certainly hope it Just Works, though ;))
 
-Our primary chat is in Matrix: https://matrix.to/#/#warpforge:matrix.org
+Our primary chat is in [Matrix](https://matrix.to/#/#warpforge:matrix.org).
 
 You can also find the chat bridged to Libera IRC.
-If you don't want to use Matrix, and you also don't have a preferred IRC client, you can use this one: https://web.libera.chat/gamja/#warpforge
+If you don't want to use Matrix, and you also don't have a preferred IRC client, you can use [this one](https://web.libera.chat/gamja/#warpforge).
 
-This spec's source code is on GitHub: https://github.com/warpsys/zapps
+This spec's source code is on our [Github repository](https://github.com/warpsys/zapps).

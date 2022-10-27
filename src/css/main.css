@@ -1,17 +1,16 @@
 :root {
-	--primary-color: #302ae6;
-	--secondary-color: #536390;
-	--text-color: #3a3a51;
-	--link-color: #339;
+  --primary-color: #302ae6;
+  --secondary-color: #536390;
+  --text-color: #3a3a51;
+  --link-color: #339;
 
-	/* Space */
-	--space-xs: 4px;
-	--space-sm: 8px;
-	--space-md: 16px;
-	--space-lg: 32px;
-	--space-xl: 64px;
-	--space-xxl: 128px;
-
+  /* Space */
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 16px;
+  --space-lg: 32px;
+  --space-xl: 64px;
+  --space-xxl: 128px;
 }
 
 body {
@@ -23,12 +22,12 @@ body {
 }
 
 a {
-	color: var(--link-color);
-	text-decoration: none;
+  color: var(--link-color);
+  text-decoration: none;
 }
 
 a:hover {
-	text-decoration: underline;
+  text-decoration: underline;
 }
 
 h1,

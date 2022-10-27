@@ -1,6 +1,8 @@
 {% set navPages = collections.all | eleventyNavigation %}
 <div class="nav">
-    <a href="/"><img width="100" height="30" src="/svg/logo.svg" /></a>
+    <a href="/">
+        <img width="100" height="30" src="/svg/logo.svg"/>
+    </a>
     <ul>
         {%- for entry in navPages %}
             <li>
@@ -8,4 +10,23 @@
             </li>
         {%- endfor %}
     </ul>
+</div>
+<div class="nav mobile">
+    <input type="checkbox" id="expand-nav"/>
+    <a href="/">
+        <img width="100" height="30" src="/svg/logo.svg"/>
+    </a>
+    <label for="expand-nav">
+        <img width="30" height="30" src="/svg/menu.svg"/>
+    </label>
+    <div class="menu">
+        <label for="expand-nav">
+            <img width="30" height="30" src="/svg/x.svg"/>
+        </label>
+        <div class="menu-content">
+            {%- for entry in navPages %}
+                <a href="{{ entry.url }}">{{ entry.title }}</a>
+            {%- endfor %}
+        </div>
+    </div>
 </div>
