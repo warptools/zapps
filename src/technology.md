@@ -99,7 +99,7 @@ And then we just run sed on the binary: `sed -i 's/XORIGIN/$ORIGIN/' thebinary`.
 
 And that works.
 
-(The first person to uncover this, to our knowledge, documented it here: https://enchildfone.wordpress.com/2010/03/23/a-description-of-rpath-origin-ld_library_path-and-portable-linux-binaries/ -- and we're very grateful for their work.)
+(The first person to uncover this, to our knowledge, [documented it here](https://enchildfone.wordpress.com/2010/03/23/a-description-of-rpath-origin-ld_library_path-and-portable-linux-binaries/) -- and we're very grateful for their work.)
 
 (A slightly better sed script is: `'0,/XORIGIN/{s/XORIGIN/$ORIGIN/}'`... as this only affects the first instance.)
 
@@ -245,9 +245,8 @@ we just had to take command of the process very briefly, so we could say _which_
 
 #### the jumploader: actually doing it
 
-We've built a small shim program that you can use for this purpose:
+We've built [a small shim program](https://github.com/ericevenchick/ldshim) that you can use for this purpose.
 
-https://github.com/ericevenchick/ldshim
 
 We suggest that you build that shim program, statically,
 and then arrange your filesystem like this:
