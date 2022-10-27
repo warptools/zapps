@@ -38,3 +38,13 @@ h5 {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   color: var(--text-color);
 }
+
+pre {
+  overflow-x: auto;
+}
+
+@media screen and (min-width: 768px) {
+  pre {
+    overflow-x: initial;
+  }
+}
