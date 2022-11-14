@@ -10,15 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/warpsys/zapps.git"
+    "url": "git+https://github.com/warptools/zapps.git"
   },
   "keywords": [],
   "author": "",
   "license": "Apache-2.0 OR MIT",
   "bugs": {
-    "url": "https://github.com/warpsys/zapps/issues"
+    "url": "https://github.com/warptools/zapps/issues"
   },
-  "homepage": "https://github.com/warpsys/zapps#readme",
+  "homepage": "https://github.com/warptools/zapps#readme",
   "dependencies": {},
   "devDependencies": {
     "@11ty/eleventy": "^1.0.2",

@@ -71,4 +71,4 @@ Our primary chat is in [Matrix](https://matrix.to/#/#warpforge:matrix.org).
 You can also find the chat bridged to Libera IRC.
 If you don't want to use Matrix, and you also don't have a preferred IRC client, you can use [this one](https://web.libera.chat/gamja/#warpforge).
 
-This spec's source code is on our [Github repository](https://github.com/warpsys/zapps).
+This spec's source code is on our [Github repository](https://github.com/warptools/zapps).

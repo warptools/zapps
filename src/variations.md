@@ -72,5 +72,5 @@ In other words, it fits the ticket rather precisely.
 And because it's already well-standardized and widely used due to git's ubiquity,
 we can all just skip a bikeshed here.
 
-We've rolled out [a treehash tool](https://github.com/warpsys/gittreehash) that does exactly this.
+We've rolled out [a treehash tool](https://github.com/warptools/gittreehash) that does exactly this.
 
