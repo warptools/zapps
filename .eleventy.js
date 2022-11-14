@@ -105,6 +105,9 @@ module.exports = function (eleventyConfig) {
 		// You may also want to consider yet more plugins, like https://github.com/markdown-it/markdown-it-emoji .
 	)
 
+	// This youtube plugin embeds a youtube player whenever it recognizes a youtube-link
+	eleventyConfig.addPlugin(require("eleventy-plugin-youtube-embed"))
+
 	// This navigation plugin consumes frontmatter from each page,
 	//  and gathers that info into a form that we use to build the nav menu.
 	//   You can see an example of this used as global navigation here: https://github.com/ipld/ipld/blob/2f010292da7e3d089f2512b175494abe114f1a2a/.site/_layouts/main.njk#L33-L53
