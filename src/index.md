@@ -15,17 +15,43 @@ Less is more.  Zapps are as simple as we can make them.
 
 
 - [Technology](#technology)
+- [Demos](#demos)
+- [Media](#media)
 - [Tradeoffs](#tradeoffs)
 - [Variants](#variants)
 - [Join the Community!](#join-the-community)
 
 
-https://www.youtube.com/watch?v=Q33LgKAwpZU
-
 Technology
 ----------
 
 Read more about the [Zapp Technology](/technology.md) in depth here.
+
+
+Demos!
+------
+
+If you want to download and run a Zapp today, here are some of our favorites:
+
+- [Bash](https://catalog.warpsys.org/warpsys.org/bash/_releases/v5.1.16-2.html)
+- [Python](https://catalog.warpsys.org/warpsys.org/python/_releases/v3.10.4.html)
+- [Helix](https://catalog.warpsys.org/warpsys.org/helix/_releases/22.05.html)
+
+(These are links to a Warpforge Catalog website -- so you can choose from the download links there,
+and also, you can follow the "replay" link to see how these packages were built!)
+
+In these demos, you can see both language interpreters and system tools, and sizable applications.
+And you may also notice that both C and Rust projects are represented here:
+Zapp-style packaging is a general technique for any linux executables, regardless of source language!
+
+
+Media
+-----
+
+Zapps were presented in 2022 at an event called IPFS Camp.  You can find the recording here:
+
+https://www.youtube.com/watch?v=Q33LgKAwpZU
+
 
 
 Tradeoffs

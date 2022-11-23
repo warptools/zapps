@@ -50,7 +50,20 @@ You still use GCC, or whatever other compiler you like.
 The divergences come in the linker stage.
 (Of course, you may end up communicating the linker instructions through makefiles or other indirections; C ecosystems are fun, aren't they?)
 
+The are three sources we can offer right now for more information:
 
+- You can see how Zapps are built in the Replay documents where we've built them using Warpforge!  [See here, for example.](https://catalog.warpsys.org/warpsys.org/bash/_replays/zM5K3Vgei44et6RzTA785sEZGwuFV75vCazjhR11RH5veFdMTx7F5cg2c4NA5HXPK8Zv5TQ.html)
+- You can read the longform story, below.
+- Or you can try to use the generic tools we've made for automatically building Zapps... except, they don't exist yet.  Sorry.
+	- If you want to work on this, pleaseplease get in touch with us!  (See the [community](https://warpforge.notion.site/Community-676332742afa4276be571f7d035d55db) links page)
+
+
+The Story of Zapp Internals
+---------------------------
+
+Here's the long-form story of what goes into producing a Zapp (and why).
+
+We don't have full copy-paste ready instructions here, but from this guidance, you should be able to figure out a way.
 
 ### The Four Key Tricks
 
@@ -245,7 +258,7 @@ we just had to take command of the process very briefly, so we could say _which_
 
 #### the jumploader: actually doing it
 
-We've built [a small shim program](https://github.com/ericevenchick/ldshim) that you can use for this purpose.
+We've built [a small shim program](https://github.com/warptools/ldshim) that you can use for this purpose.
 
 
 We suggest that you build that shim program, statically,
