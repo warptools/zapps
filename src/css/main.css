@@ -39,6 +39,10 @@ h5 {
   color: var(--text-color);
 }
 
+h2 {
+  margin-top: 1em;
+}
+
 pre {
   overflow-x: auto;
 }
