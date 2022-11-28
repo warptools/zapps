@@ -7,12 +7,12 @@
   margin-bottom: var(--space-xl);
 }
 
-.nav a {
+.logo {
   position: relative;
   z-index: 3;
 }
 
-.nav.mobile {
+.nav--mobile {
   display: flex;
   align-items: flex-start;
 }
@@ -25,12 +25,12 @@
   .nav {
     display: flex;
   }
-  .nav.mobile {
+  .nav--mobile {
     display: none;
   }
 }
 
-.nav > button {
+.nav__open-button {
   border: 0;
   background-color: transparent;
 }
@@ -69,13 +69,13 @@
   transform: translateX(-100%);
 }
 
-.menu > label {
+.menu__close-button {
   position: absolute;
   top: var(--space-lg);
   right: var(--space-xl);
 }
 
-.menu-content {
+.menu__content {
   width: 100%;
   padding: var(--space-lg);
   margin: var(--space-xl) 0;
@@ -84,7 +84,7 @@
   transform: translateX(30%);
 }
 
-.menu-content a {
+.menu__content a {
   font-weight: bold;
   color: var(--secondary-color);
   margin: var(--space-md) 0;
