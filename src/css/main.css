@@ -50,7 +50,7 @@ h1 {
 }
 
 h2 {
-  margin-top: var(--space-lg);
+  margin-top: var(--space-xl);
   position: relative;
 }
 
@@ -62,6 +62,10 @@ h2:after {
   left: -1em;
   height: 1.25em;
   width: 0.35em;
+}
+
+h3 {
+  margin-top: var(--space-lg);
 }
 
 a.header-anchor:before {
