@@ -13,13 +13,17 @@
   --space-xxl: 8em;
 }
 
+html {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin: auto;
   max-width: 80ch;
   padding: var(--space-lg) var(--space-xl);
   color: var(--text-color);
-  overflow-x: hidden;
 }
 
 a {
@@ -44,9 +48,16 @@ h1 {
   color: var(--primary-color);
   background-color: var(--secondary-color);
   text-align: center;
-  padding: var(--space-md);
-  margin: 0 -100% var(--space-lg) -100%;
-  font-size: 2.5em;
+  padding: var(--space-md) 0;
+  margin: var(--space-lg) -2em;
+  font-size: 1.5em;
+}
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 2.5em;
+    margin: 0 -100% var(--space-lg) -100%;
+  }
 }
 
 h2 {
