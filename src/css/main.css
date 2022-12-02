@@ -51,6 +51,7 @@ h1 {
   padding: var(--space-md) 0;
   margin: var(--space-lg) -2em;
   font-size: 1.5em;
+  text-decoration: underline;
 }
 
 @media (min-width: 768px) {
