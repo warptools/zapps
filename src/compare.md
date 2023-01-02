@@ -39,7 +39,7 @@ The install process is "untar".  Or "unzip".  Or un-whatever-your-packing-format
 
 Zapps don't generally require post-install hooks to function.
 In fact, it's a key goal of Zapps that they should run just fine even when mounted on a read-only filesystem.
-Most traditional linux package managers expect to use post-install hooks freely, and tend not to be very viable on ready-only filesystems.
+Most traditional linux package managers expect to use post-install hooks freely, and tend not to be very viable on read-only filesystems.
 
 
 ### Difference from AppImage
