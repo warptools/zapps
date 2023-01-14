@@ -90,6 +90,6 @@ The baseline Zapps don't do this, but the [Zapp-splay Variation](/variations.md#
 Zapps are generally easier to produce than static linking.
 (Static linking can require correct support from upstream libraries; usually, it works.  When it doesn't?  You can be pretty far up a creek and left without very usable paddle, because the problems might not even be in code that you own yourself.)
 
-Because Zapps are doing dynamic linking in a very normal way, it means they also support delayed dymanic loading, too, with no fuss.
+Because Zapps are doing dynamic linking in a very normal way, it means they also support delayed dynamic loading, too, with no fuss.
 If an application packaged as a Zapp wants to load libraries after main program initialization, e.g., for some kind of plugin system... It just works.
 No special effort; no special cases.
