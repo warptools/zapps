@@ -3,34 +3,74 @@ title: "Zero-Dependency Applications"
 layout: base.njk
 ---
 
-Zapps bring zero-dependency drag-and-drop applications to Linux.
+<span style="font-size:200%;">
+Zapps are a packaging convention that bring zero-dependency hassle-free
+drag-and-drop application installation to Linux.
+</span>
 
----
+<hr style="margin-top:2em;" />
+
+<div style="display:inline-block; width:30%; text-align:center; border: 1px solid; padding:1ex;">
+	open tar (or unzip); done
+</div>
+<div style="display:inline-block; width:30%; text-align:center; border: 1px solid; padding:1ex;">
+	all dependencies bundled
+</div>
+<div style="display:inline-block; width:30%; text-align:center; border: 1px solid; padding:1ex;">
+	no post-install hooks
+</div>
+<div style="display:inline-block; width:30%; text-align:center; border: 1px solid; padding:1ex;">
+	works on all linux distros
+</div>
+<div style="display:inline-block; width:30%; text-align:center; border: 1px solid; padding:1ex;">
+	works on read-only media
+</div>
+<div style="display:inline-block; width:30%; text-align:center; border: 1px solid; padding:1ex;">
+	unpack at any path
+</div>
+
+<hr style="margin-bottom:2em;" />
 
 Zapps are a packaging style for Linux executables.
 They run on any Linux system, in any install path, with no setup.
 
-For users, Zapps provide simplicity and freedom: a Zapp can be installed in any location, on any linux distribution, and will "just work".
+<span style="font-size:160%">For users,</span>
+Zapps provide simplicity and freedom:
+a Zapp can be installed in any location, on any linux distribution, and will "just work".
+
 Zapps can run fine directly from a jumpdrive.
 Zapps can run just fine from read-only media.
 And Zapps allow easily running varying versions of the same application on the same computer with no fuss.
 They're liberating: with Zapps, you can do whatever you want, with as much (or as little) organization as you wish.
 
-For developers and packagers, Zapps also provide simplicity: do the work to package something as a Zapp just one time,
-and now you have a package anyone can use, anywhere.
+<span style="font-size:160%">For developers and packagers,</span>
+Zapps provide simplicity and predictability:
+do the work to package something as a Zapp just one time, and now you have a package anyone can use, anywhere.
+
 You don't have to handle distro-specific worries, and maintain dozens of different scripts for different distros.
 You don't have to test your application against different versions of libraries that a host system _might_ throw at you, or field bug reports from library versioning problems.
 And users can always get the latest version of the application, direct from you.
 
-Less is more.  Zapps are as simple as we can make them.
+<span style="font-size:160%">For whole systems,</span>
+_yes_, Zapps still support deduplication of shared libraries -- so you can have a small on-disk footprint, and an efficient system overall.
 
+<hr style="margin:2em;" />
+
+<span style="font-size:200%">
+Less is more.  Zapps are as simple as we can make them.
+</span>
+
+<hr style="margin:2em;" />
+
+<!-- cursed: don't use h2 here because TOC plugin really wants to redundantly put it in the list right under itself. -->
+<u><b>Learn more:</b></u>
 
 - [Technology](#technology)
-- [Demos](#demos)
+- [Demos!](#demos)
 - [Media](#media)
 - [Tradeoffs](#tradeoffs)
 - [Variants](#variants)
-- [Join the Community!](#join-the-community)
+- [Join the Community](#join-the-community)
 
 
 Technology
@@ -97,15 +137,13 @@ Join the Community
 Zapps grew out of the work on [Warpforge](http://warpforge.io/)!
 We develop the spec alongside the Warpforge and Warpsys projects.
 
-We'd love to have you join our [community](https://warpforge.notion.site/Community-676332742afa4276be571f7d035d55db)!
+We'd love to have you join our [community](https://warpforge.io/community/)!
 
 - If you're interested in Zapps -- come!
 - If you're interested in adopting Zapps as someone who ships software -- join us!
 - If you're using Zapps and need support -- we're happy to hear from you!  (We certainly hope it Just Works, though ;))
 
 Our primary chat is in [Matrix](https://matrix.to/#/#warpforge:matrix.org).
-
-You can also find the chat bridged to Libera IRC.
-If you don't want to use Matrix, and you also don't have a preferred IRC client, you can use [this one](https://web.libera.chat/gamja/#warpforge).
+(Regrettibly, we've suspended the IRC bridge, due to the frequency of issues caused by bridging.)
 
 This spec's source code is on our [Github repository](https://github.com/warptools/zapps).
