@@ -72,7 +72,7 @@ and differ in that Zapps make it possible to deduplicate content, while AppImage
 
 - **deduplication:**
   Dymamic libraries and shared data in Zapps can be deduplicated, because they're just files.
-  There are multiple ways to approach this: a filesystem with dedup will acheive it naturally, or, [symlinks can be used](variations.md#zapp-splay) to deduplicate common files.
+  There are multiple ways to approach this: a filesystem with dedup will acheive it naturally, or, [symlinks can be used](/variations.md#zapp-splay) to deduplicate common files.
   In AppImage, deduplication and sharing of data is blocked by the all-in-one file pattern:
   because the squashFS image is a single file, the simple techniques that work for Zapps don't work for AppImage files.
 
